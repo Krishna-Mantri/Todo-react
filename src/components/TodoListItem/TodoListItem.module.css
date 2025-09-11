@@ -1,0 +1,45 @@
+.TodoListItem[data-completed="true"] .Info{
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+.Content{
+    display: flex;
+    gap: 4px;
+}
+
+.Status{
+    align-self: flex-start;
+    margin-top: 6px;
+}
+
+.Info{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.Description{
+    font-size: 14px;
+    color: gray;
+}
+
+.AdditionalInfo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 4px;
+    font-size: 13px;
+    color: gray;
+}
+
+.Edit{
+    display: flex;
+    flex-wrap: nowrap;
+    align-self: flex-start;
+    gap: 4px;
+}
+
+.Edit button,
+.Edit input{
+    font-size: 12px;
+}
